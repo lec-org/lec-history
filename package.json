@@ -1,10 +1,30 @@
 {
+  "name": "lec-history",
+  "version": "1.0.0",
+  "description": "LEC团队历史记录项目",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "docs:serve": "vitepress serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lec-org/lec-history"
+  },
+  "keywords": [
+    "LEC",
+    "history",
+    "vitepress",
+    "documentation"
+  ],
+  "author": "LEC Team",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

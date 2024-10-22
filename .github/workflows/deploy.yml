@@ -19,7 +19,7 @@ jobs:
           node-version: '18'  # 设置Node.js版本
       
       - name: Install dependencies
-        run: npm ci
+        run: npm install  # 将 npm ci 改为 npm install
       
       - name: Build
         run: npm run docs:build
