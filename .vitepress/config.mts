@@ -40,4 +40,9 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/lec-org" }],
   },
+  vite: {
+    build: {
+      assetsDir: "assets",
+    },
+  },
 });
