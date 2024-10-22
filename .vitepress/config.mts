@@ -7,7 +7,9 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "编年史", link: "/history-outline/" },
-      { text: "人物故事", link: "/member-stories/" },
+      { text: "人物", link: "/member-stories/" },
+      { text: "获奖", link: "/achievements/" },
+      { text: "其他故事", link: "/other-stories/" },
     ],
 
     sidebar: {

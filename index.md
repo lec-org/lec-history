@@ -37,28 +37,138 @@ features:
 ## 导航 🌈
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-  <div style="background: linear-gradient(135deg, #3F51B5, #5C6BC0); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="color: #E8EAF6; margin-top: 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">📚 开始阅读</h3>
-    <p style="color: #C5CAE9;">踏上时光之旅，探索 LEC 的发展轨迹。从创立之初到现在，每一步都是我们成长的见证。</p>
-    <a href="/history-outline" style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #7986CB; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">了解历史大纲</a>
+  <div style="
+    background: linear-gradient(135deg, #3F51B5, #5C6BC0); 
+    padding: 20px; border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  ">
+    <h3 style="
+      color: #E8EAF6; 
+      margin-top: 0; 
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    ">
+      📚 开始阅读
+    </h3>
+    <p style="color: #C5CAE9;">
+      踏上时光之旅，探索 LEC 的发展轨迹。从创立之初到现在，每一步都是我们成长的见证。
+    </p>
+    <a 
+      href="/history-outline/" 
+      style="
+        display: inline-block; 
+        margin-top: 10px; 
+        padding: 5px 10px; 
+        background-color: #7986CB; 
+        color: white; 
+        text-decoration: none; 
+        border-radius: 5px; 
+        transition: background-color 0.3s;
+      ">
+      了解历史大纲
+    </a>
   </div>
   
-  <div style="background: linear-gradient(135deg, #00897B, #4DB6AC); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="color: #E0F2F1; margin-top: 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">👥 关于我们</h3>
-    <p style="color: #B2DFDB;">每个 LEC 成员都有自己的独特故事。这里记录着我们的欢笑、泪水和成长。</p>
-    <a href="/member-stories" style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #26A69A; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">探索成员故事</a>
+  <div style="
+    background: linear-gradient(135deg, #00897B, #4DB6AC);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  ">
+    <h3 style="
+      color: #E0F2F1;
+      margin-top: 0;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    ">
+      👥 关于我们
+    </h3>
+    <p style="color: #B2DFDB;">
+      每个 LEC 成员都有自己的独特故事。这里记录着我们的欢笑、泪水和成长。
+    </p>
+    <a
+      href="/member-stories/"
+      style="
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #26A69A;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      "
+    >
+      探索成员故事
+    </a>
   </div>
   
-  <div style="background: linear-gradient(135deg, #F57C00, #FFB74D); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="color: #FFF3E0; margin-top: 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">🏆 历年成果</h3>
-    <p style="color: #FFE0B2;">每一个奖项、每一次突破，都是 LEC 不懈努力的结晶。让我们一起回顾这些辉煌时刻。</p>
-    <a href="/achievements" style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #FFA726; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">查看辉煌战绩</a>
+  <div style="
+    background: linear-gradient(135deg, #F57C00, #FFB74D);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  ">
+    <h3 style="
+      color: #FFF3E0;
+      margin-top: 0;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    ">
+      🏆 历年成果
+    </h3>
+    <p style="color: #FFE0B2;">
+      每一个奖项、每一次突破，都是 LEC 不懈努力的结晶。让我们一起回顾这些辉煌时刻。
+    </p>
+    <a
+      href="/achievements/"
+      style="
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #FFA726;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      "
+    >
+      查看辉煌战绩
+    </a>
   </div>
   
-  <div style="background: linear-gradient(135deg, #7B1FA2, #BA68C8); padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <h3 style="color: #F3E5F5; margin-top: 0; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">🌟 其他故事</h3>
-    <p style="color: #E1BEE7;">除了正式的历史记录，这里还有许多有趣的轶事和幕后故事等待你的发现。</p>
-    <a href="/other-stories" style="display: inline-block; margin-top: 10px; padding: 5px 10px; background-color: #AB47BC; color: white; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">发现更多内容</a>
+  <div
+    style="
+      background: linear-gradient(135deg, #7B1FA2, #BA68C8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    "
+  >
+    <h3
+      style="
+        color: #F3E5F5;
+        margin-top: 0;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+      "
+    >
+      🌟 其他故事
+    </h3>
+    <p style="color: #E1BEE7;">
+      除了正式的历史记录，这里还有许多有趣的轶事和幕后故事等待你的发现。
+    </p>
+    <a
+      href="/other-stories/"
+      style="
+        display: inline-block;
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: #AB47BC;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      "
+    >
+      发现更多内容
+    </a>
   </div>
 </div>
 
