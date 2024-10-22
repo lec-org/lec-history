@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/lec-history/",
   title: "乐程编年史 LEC-History",
   description: "乐程的故事",
   themeConfig: {
